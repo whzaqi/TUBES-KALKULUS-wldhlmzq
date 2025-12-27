@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Tugas Besar si Jek</title>
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar d-flex flex-column px-3">
+    <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none fs-4 fw-semibold">
+      Gauth Jek
+    </a>
+    <hr />
+    <ul class="nav nav-pills flex-column mb-auto">
+      <li class="nav-item mb-1">
+        <a href="#" class="nav-link active d-flex align-items-center">
+          <i class="bi bi-house-door-fill me-2"></i>Homework
+        </a>
+      </li>
+      <li class="nav-item mb-1">
+        <a href="#" class="nav-link d-flex align-items-center text-dark">
+          <i class="bi bi-calculator me-2"></i>Calculator
+        </a>
+      </li>
+      <hr class="my-2" />
+      <li class="nav-item mb-1">
+        <a href="#" class="nav-link d-flex align-items-center text-dark justify-content-between">
+          <span><i class="bi bi-grid-3x3-gap me-2"></i>Resources</span>
+          <i class="bi bi-chevron-right"></i>
+        </a>
+      </li>
+      <li class="nav-item mb-1">
+        <a href="#" class="nav-link d-flex align-items-center text-dark">
+          <i class="bi bi-journal-text me-2"></i>Blog
+        </a>
+      </li>
+      <hr class="my-2" />
+      <li class="nav-item mb-1">
+        <a href="#" class="nav-link d-flex align-items-center text-dark">
+          <i class="bi bi-phone me-2"></i>App
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- Navbar Top Right -->
+  <header class="navbar-custom">
+    <button class="btn btn-upgrade btn-sm d-flex align-items-center">
+      <i class="bi bi-lightning-fill me-1"></i> Upgrade
+    </button>
+    <button class="btn btn-dark btn-sm">Sign in</button>
+  </header>
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- Main Content -->
+  <main class="content-wrapper">
+
+    <h1 class="big-title mt-5">
+      Tugas Besar Kalkulus <span class="highlight">Penghitung</span><br />
+      Contoh Terbatas!
+    </h1>
+
+    <!-- card -->
+    <div class="row row-cols-1 row-cols-md-4 g-4 mb-5 mt-5 justify-content-center">
+      <div class="col">
+        <div class="card border-0">
+          <div class="card-body" >
+            <div class="row pb-3">
+              <i class="col-2">
+                <img src="modul1.png" class="icon-mod1">
+              </i>
+              <h5 class="col mt-2">Himpunan Pertidaksamaan</h5>
+            </div>
+            <p class="card-text">
+              Penghitung Himpunan Pertidaksamaan <br>
+              Contoh soal 1 : 1 ≤ 1 + 1x ≤ 1 <br>
+              Contoh soal 2 : 1 ≤ 1x + 1 ≤ 1 <br>
+              Perbedaan Soal 1 dan 2 hanya dari letak x saja
+            </p>
+            <div class="card-text float-end" style="margin-top: 73px;">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-controls="collapseExample1">Soal 1?</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-controls="collapseExample2">Soal 2?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <div class="card-body">
+            <div class="row pb-3">
+              <i class="col-2">
+                <img src="logointegraldx.png" class="icon-mod1">
+              </i>
+              <h5 class="col mt-2">Integral Tak Tentu</h5>
+            </div>
+            <p class="card-text">
+              Penghitung Integral <br>
+              Contoh soal 1: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 2 ) dx <br>
+              Contoh soal 2: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 2x + 3 ) dx <br>
+              Contoh soal 3: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 2x + 3x + 4 ) dx
+            </p>
+            <div class="card-text float-end">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample31" aria-controls="collapseExample31">Soal 1?</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample32" aria-controls="collapseExample32">Soal 2?</button>
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample33" aria-controls="collapseExample33">Soal 3?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card border-0">
+          <div class="card-body">
+            <div class="row pb-3">
+              <i class="col-2">
+                <img src="fahrenheit.png" class="icon-mod1">
+              </i>
+              <h5 class="col mt-2">Temperatur Konverter</h5>
+            </div>
+            <p class="card-text">Penghitung Temperatur yang terdiri dari Celsius, Fahrenheit, Kelvin <br>
+              Contoh soal : 20 Celsius To Kelvin : 293.15 K
+            </p>
+            <div class="card-text float-end" style="margin-top: 72px;">
+              <button type="button" class="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-controls="collapseExample2">Coba hitung?</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <main class="content-wrapper">
+    <h1 class="big-title">
+        Untuk Melihat Soal Lain Jangan Lupa Klik <span class="highlight">Close / X </span><br />
+        Di Pojok Kanan Atas Kotak. Terimakasih
+    </h1>
+  </main>
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+   
+  <!-- pertidaksamaan 1 -->
+  <main class="collapse content-wrapper" id="collapseExample1">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-controls="collapseExample1">X</button>
+    </div>
+    <label for="" class="upload-area">
+      <h2 class="big-title mt-5">
+        Penghitung Himpunan Penyelesaian <span class="text-danger">Pertidaksamaan</span><br/>
+        Baca Contoh Terlebih Dahulu!
+      </h2>
+      <div class="text-black">
+        <div class="">
+            <h5 class="">Contoh Catatan</h5>
+            <p class="">
+              Contoh Soal : -2 ≤ 6 - 4x ≤ 8 <br>
+              Maka Sebutlah Variabel. ada Variabel (A, B, C, D, Simbol 1,Simbol 2) <br>
+              Masukkan Variabel (A = -2) (B = 6) (Cx = -4) (D = 8) <br>
+              Masukkan Simbol 1 Bagian Kiri = ≤ <br>
+              Masukkan Simbol 2 Bagian Kanan = ≤
+            </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-6 p-4">
+        <div class="col">
+          <div class="">
+              <label for="a" class="form-label">Var A</label>
+              <input id ="a" placeholder="Variabel a" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="b" class="form-label">Var B</label>
+              <input id ="b" placeholder="Variabel b" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="c" class="form-label">Var Cx</label>
+              <input id ="c" placeholder="Variabel c" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="d" class="form-label">Var D</label>
+              <input id ="d" placeholder="Variabel d" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label  for="operator1" class="form-label">Simbol 1</label>
+              <select id="operator1" class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value=">">></option>
+                <option value=">=">>=</option>
+                <option value="<"><</option>
+                <option value="<="><=</option>
+              </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label  for="operator2" class="form-label">Simbol 2</label>
+              <select id="operator2" class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value=">">></option>
+                <option value=">=">>=</option>
+                <option value="<"><</option>
+                <option value="<="><=</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" id="hapusbtn" class="btn btn-danger">Hapus</button>
+        </div>
+        <div class="col">
+          <button onclick="hitungPertidaksamaan1()" type="button" class="btn btn-success">Hitung</button>
+        </div>
+      </div>
+      <div class="p-4" id="validasi1">
+        <div id="hasil1" class="card border-success mb-3" style="max-width: 30rem;">
+          <div class="card-body text-success" id="note1">
+          </div>
+        </div>
+      </div>
+    </label>
+  </main>
+  <!-- pertidaksamaan 1 -->
+
+  <!-- pertidaksamaan 2 -->
+  <main class="content-wrapper collapse content-wrapper" id="collapseExample2">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-controls="collapseExample2">X</button>
+    </div>
+    <label class="upload-area">
+      <h2 class="big-title mt-5">
+        Penghitung Himpunan Penyelesaian <span class="text-danger">Pertidaksamaan</span><br/>
+        Baca Contoh Terlebih Dahulu!
+      </h2>
+      <div class="text-black">
+        <div class="">
+            <h5 class="">Contoh Catatan</h5>
+            <p class="">
+              Contoh Soal : 13 ≥ 2x - 3 ≥ 5 <br>
+              Maka Sebutlah Variabel. ada Variabel (A, B, C, D, Simbol 1,Simbol 2) <br>
+              Masukkan Variabel (A = 13) (Bx = 2) (Cx = -3) (D = 5) <br>
+              Masukkan Simbol 1 Bagian Kiri = ≥ <br>
+              Masukkan Simbol 2 Bagian Kanan = ≥
+            </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-6 p-4">
+        <div class="col">
+          <div class="">
+              <label for="a2" class="form-label">Var A</label>
+              <input id ="a2" placeholder="Variabel a" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="b2" class="form-label">Var B</label>
+              <input id ="b2" placeholder="Variabel b" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="c2" class="form-label">Var Cx</label>
+              <input id ="c2" placeholder="Variabel c" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label for="d2" class="form-label">Var D</label>
+              <input id ="d2" placeholder="Variabel d" type="number" class="form-control">
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label  for="operator12" class="form-label">Simbol 1</label>
+              <select id="operator12" class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value=">">></option>
+                <option value=">=">>=</option>
+                <option value="<"><</option>
+                <option value="<="><=</option>
+              </select>
+          </div>
+        </div>
+        <div class="col">
+          <div class="">
+              <label  for="operator22" class="form-label">Simbol 2</label>
+              <select id="operator22" class="form-select" aria-label="Default select example">
+                <option selected></option>
+                <option value=">">></option>
+                <option value=">=">>=</option>
+                <option value="<"><</option>
+                <option value="<="><=</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" id="hapusbtn2" class="btn btn-danger">Hapus</button>
+        </div>
+        <div class="col">
+          <button onclick="hitungPertidaksamaan2()" type="button" class="btn btn-success">Hitung</button>
+        </div>
+      </div>
+      <div class="p-4" id="validasi2">
+        <div class="card border-success mb-3" style="max-width: 30rem;">
+          <div id="hasil2" class="card-body text-success">
+          </div>
+        </div>
+      </div>
+    </label>
+  </main>
+  <!-- pertidaksamaan 2 -->
+  
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- integral 3.1 -->
+  <main class="content-wrapper collapse content-wrapper" id="collapseExample31">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample31" aria-controls="collapseExample31">X</button>
+    </div>
+      <label for="" class="upload-area">
+        <h2 class="big-title">
+          Penghitung Integral <span class="text-danger">Tentu</span><br/>
+          Baca Contoh Terlebih Dahulu!
+        </h2>
+        <div class="text-black">
+          <div class="">
+              <h5 class="">Contoh Catatan</h5>
+              <p class="">
+                Contoh soal 1: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 2 ) dx <br>
+                Maka Sebutlah Variabel. ada Variabel (A, x Pangkat, B) <br>
+                Masukkan Variabel (A = 2) (x Pangkat = 2) (B = 2) <br>
+              </p>
+          </div>
+        </div>
+        <div class="row row-cols-md-auto p-4">
+          <div class="col">
+            <div class="">
+                <div class="" style="margin-top: 13px;">
+                  <img src="integral.png" style="width: 70px; height: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var A dan x Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var1" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx1" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var B</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var2" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label hidden">.</label>
+                <div class="row justify-content-center">
+                  <label for="" class="form-label" style="margin-top: 5px;">dx</label>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 20px;" id="validasi-integral">
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" id="hapusbtn3" class="btn btn-danger">Hapus</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-success" onclick="hitungintegral1()">Hitung</button>
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="card border-success mb-3" style="width: 60rem;">
+            <div class="card-header" id="hasil-integral">Hasil</div>
+              
+            </div>
+          </div>
+        </div>
+      </label>
+  </main>
+  <!-- integral 3.1 -->
+
+  <!-- integral 3.2 -->
+  <main class="content-wrapper collapse content-wrapper" id="collapseExample32">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample32" aria-controls="collapseExample31">X</button>
+    </div>
+      <label for="" class="upload-area">
+        <h2 class="big-title">
+          Penghitung Integral <span class="text-danger">Tentu</span><br/>
+          Baca Contoh Terlebih Dahulu!
+        </h2>
+        <div class="text-black">
+          <div class="">
+              <h5 class="">Contoh Catatan</h5>
+              <p class="">
+                Contoh soal 2: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 3x<sup>3</sup> + 4 ) dx <br>
+                Maka Sebutlah Variabel. ada Variabel (A, Ax Pangkat, B, Bx Pangkat, C) <br>
+                Masukkan Variabel (A = 2) (Ax Pangkat = 2) (B = 3) (Bx Pangkat = 3) (C = 4)<br>
+              </p>
+          </div>
+        </div>
+        <div class="row row-cols-md-auto p-4">
+          <div class="col">
+            <div class="">
+                <div class="" style="margin-top: 13px;">
+                  <img src="integral.png" style="width: 70px; height: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var A dan Ax Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var12" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx12" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var B dan Bx Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var22" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx22" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var C</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var3" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label hidden">.</label>
+                <div class="row justify-content-center">
+                  <label for="" class="form-label" style="margin-top: 5px;">dx</label>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 20px;" id="validasi-integral">
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" id="hapusbtn4" class="btn btn-danger">Hapus</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-success" onclick="hitungintegral2()">Hitung</button>
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="card border-success mb-3" style="width: 60rem;">
+            <div class="card-header" id="hasil-integral2">Hasil</div>
+              
+            </div>
+          </div>
+        </div>
+      </label>
+  </main>
+  <!-- integral 3.2 -->
+
+  <!-- integral 3.3 -->
+  <main class="content-wrapper collapse content-wrapper" id="collapseExample33">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample33" aria-controls="collapseExample31">X</button>
+    </div>
+      <label for="" class="upload-area">
+        <h2 class="big-title">
+          Penghitung Integral <span class="text-danger">Tentu</span><br/>
+          Baca Contoh Terlebih Dahulu!
+        </h2>
+        <div class="text-black">
+          <div class="">
+              <h5 class="">Contoh Catatan</h5>
+              <p class="">
+                Contoh soal 3: <img src="integral.png" style="width: 40px; height: 40px;"> ( 2x<sup>2</sup> + 3x<sup>3</sup> + 4x<sup>4</sup> + 5 ) dx <br>
+                Maka Sebutlah Variabel. ada Variabel (A, Ax Pangkat, B, Bx Pangkat, C, Cx Pangkat, D) <br>
+                Masukkan Variabel (A = 2) (Ax Pangkat = 2) (B = 3) (Bx Pangkat = 3) (C = 4) (Cx Pangkat = 4) (D = 5)<br>
+              </p>
+          </div>
+        </div>
+        <div class="row row-cols-md-auto p-4">
+          <div class="col">
+            <div class="">
+                <div class="" style="margin-top: 13px;">
+                  <img src="integral.png" style="width: 70px; height: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var A dan Ax Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var13" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx13" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var B dan Bx Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var23" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx23" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var C dan Cx Pangkat</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var33" style="width: 70px; margin-right: 10px;">
+                  <input type="number" class="form-control" id="varx33" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label">Var D</label>
+                <div class="row justify-content-center">
+                  <input type="number" class="form-control" id="var4" style="width: 70px;">
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="">
+                <label for="" class="form-label hidden">.</label>
+                <div class="row justify-content-center">
+                  <label for="" class="form-label" style="margin-top: 5px;">dx</label>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 20px;" id="validasi-integral">
+        </div>
+        <div class="row">
+          <div class="col">
+            <button type="button" id="hapusbtn5" class="btn btn-danger">Hapus</button>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-success" onclick="hitungintegral3()">Hitung</button>
+          </div>
+        </div>
+        <div class="p-4">
+          <div class="card border-success mb-3" style="width: 60rem;">
+            <div class="card-header" id="hasil-integral3">Hasil</div>
+              
+            </div>
+          </div>
+        </div>
+      </label>
+  </main>
+  <!-- integral 3.3 -->
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- Temperatur 4 -->
+  <main class="content-wrapper collapse content-wrapper" id="collapseExample4">
+    <div class="d-flex justify-content-end" style="margin-right: 20%; margin-bottom: -60px;">
+      <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-controls="collapseExample4">X</button>
+    </div>
+    <label class="upload-area">
+      <h2 class="big-title mt-5">
+        Penghitung Konverter <span class="text-danger">Temperatur</span><br/>
+      </h2>
+      <div class="row mb-5 mt-5">
+        <div class="col">
+          <input class="form-control" type="number" id="temp">
+        </div>
+        <div class="col">
+          <select class="form-select" id="fromUnit">
+              <option value="C">Celsius</option>
+              <option value="F">Fahrenheit</option>
+              <option value="K">Kelvin</option>
+          </select>
+        </div>
+        <div class="col-1">
+          <p>To:</p>
+        </div>
+        <div class="col">
+          <select class="form-select" id="toUnit">
+              <option value="C">Celsius</option>
+              <option value="F">Fahrenheit</option>
+              <option value="K">Kelvin</option>
+          </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="button" id="hapusbtn4" class="btn btn-danger">Hapus</button>
+        </div>
+        <div class="col">
+          <button onclick="convert()" type="button" class="btn btn-success">Hitung</button>
+        </div>
+      </div>
+      <div class="p-4" id="validasi4">
+        <div class="card border-success mb-3" style="max-width: 30rem;">
+          <div id="result" class="card-body text-success">
+          </div>
+        </div>
+      </div>
+    </label>
+  </main>
+  <!-- Temperatur 4 -->
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <footer class="footer mt-auto py-3 bg-body-tertiary">
+        <div class="container">
+          <span class="text-body-secondary"
+            >Place sticky footer content here.</span>
+        </div>
+  </footer>
+
+  <!-- ---------------------------------------------------------------------------------------------------------------------------------------- -->
+
+  <!-- Bootstrap 5.3 JS and Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="integral.js"></script>
+  <script src="pertidak1.js"></script>
+  <script src="pertidak2.js"></script>
+  <script src="temperatur.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
